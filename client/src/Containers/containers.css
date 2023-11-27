@@ -1,0 +1,241 @@
+.sidebar-main {
+  width: 30%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 100vh;
+}
+
+.sidebar-header {
+  width: 100%;
+  height: 8vh;
+}
+
+.sidebar-header-text {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #f0f2f5;
+  width: 90%;
+  margin-left: 3.6%;
+  border-radius: 104px;
+}
+
+.search-input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.search-icon {
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.sidebar-chats-container {
+  width: 100%;
+  height: 82vh;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+.chat-screen {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-screen-header {
+  width: 98.3%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.chat-screen-header-text {
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+
+.chat-screen-header-text-name {
+  font-size: 20px;
+}
+
+.auth-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-header {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.auth-sub-header{
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+.login-cont {
+  width: 30%;
+  height: 65%;
+  display: flex;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.register-cont {
+  width: 30%;
+  height: 79%;
+  display: flex;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+
+}
+
+.input-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.auth-input {
+  width: 70%;
+  height: 10%;
+  margin: 10px;
+  padding: 22px 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border-radius: 50px;
+}
+
+.register-cont .auth-input {
+  margin: 0px;
+}
+
+.auth-input-select {
+  width: 77%;
+  height: 48px;
+  /* Adjust the height as needed */
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border: none;
+  /* Add a border for better visibility */
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  appearance: none;
+  /* Disable default appearance */
+  outline: none;
+  /* Remove default focus outline */
+}
+
+.auth-input-select:focus {
+  border-color: #0084ff;
+  /* Change border color on focus */
+}
+
+/* Style the arrow icon (use ::after for better cross-browser compatibility) */
+.auth-input-select::after {
+  content: '\25BC';
+  /* Unicode character for a down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #555;
+  pointer-events: none;
+  /* Make sure the arrow doesn't interfere with clicking the select */
+}
+
+.auth-btn {
+  width: 60%;
+  margin: 10px;
+  padding: 17px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #0084ff;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.register-cont .logo-cont {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.input-sub-text {
+  font-size: 14px;
+  color: #8e8e8e;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.error-cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: red;
+}
